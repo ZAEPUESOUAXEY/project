@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(16w.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            margin: 20px;
+            
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+            text-align: center;
+            color: #ffffff;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            text-align: left;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <h2>Job Application Form</h2>
+
+        <label for="fullName">Full Name:</label>
+        <input type="text" id="fullName" name="fullName" required>
+
+        <label for="address">Address:</label>
+        <input type="text" id="address" name="address" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="ssn">Social Security Number:</label>
+        <input type="text" id="ssn" name="ssn" required>
+
+        <label for="position">Position Applied for:</label>
+        <input type="text" id="position" name="position" required>
+
+        <label for="salary">Desired Salary:</label>
+        <input type="text" id="salary" name="salary">
+
+        <label for="startDate">Date Available to Start:</label>
+        <input type="date" id="startDate" name="startDate">
+
+        <label for="eligibleToWork">Are you legally eligible to work in [Country]?</label>
+        <select id="eligibleToWork" name="eligibleToWork">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <!-- Additional sections and fields can be added as needed -->
+
+        <button>
+            <a href="website.html">Submit Application</a>
+        </button>
+    </form>
+
+</body>
+</html>
